@@ -8,7 +8,7 @@ Purpose/Goals: Create interactive webmap of census population/race demographic d
 
 Link to Anacostia Watershed data (used to clip to census.gov data): http://www.anacostia.net/maps/Data_download.html
 
-data from census.gov
+Maryland census tract data from census.gov
 - https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2010&layergroup=Census+Tracts
 
 Brief Description of Geoprocessing:
