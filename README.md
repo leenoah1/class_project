@@ -12,9 +12,12 @@ data from census.gov
 - https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2010&layergroup=Census+Tracts
 
 Brief Description of Geoprocessing:
-- clipped Anacostia watershed shapefile to census.gov Maryland tract shapefile.
-- recalculated population demographics of new tracts that were clipped by the watersheds (based on geometry (acres))
-
+- clipped Anacostia watershed shapefile to census.gov Maryland tract shapefile
+- recalculated population demographics of new tracts that were clipped by the watershed shapefile 
+    - calculated new geometry (acres)
+    - calculated new population numbers based on new tract geometry/area
+    
+    
 Technical
 
 Basemap slippy (leaflet) Gist link  - https://gist.github.com/leenoah1/c6cb58257f6069bfb9d1d305df36e621
