@@ -3,7 +3,7 @@ GES 778 class project. Anacostia watershed census map.
 
 Documentation
 
-Purpose/Goals: Create interactive webmap of census population/race demographic data in the Anacostia Watershed
+Purpose/Goals: Create interactive webmap of census demographic data in the Anacostia Watershed
 
 Link to Anacostia Watershed data from MWCOG (current employed organization.  Data used to clip to census.gov tract data): http://www.anacostia.net/maps/Data_download.html
 
