@@ -1,6 +1,5 @@
 # class_project
-GES 778 class project.  Anacostia watershed census map. Population demographics by race
-
+GES 778 class project. Anacostia watershed census map.
 
 Documentation
 
