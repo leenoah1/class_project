@@ -25,3 +25,10 @@ Basemap slippy (leaflet) Gist link  - https://gist.github.com/leenoah1/c6cb58257
 
 2. Plot GeoJSON on top of a slippy map (zoomable map tiles)
 3. Add interaction using data in the GeoJSON file
+
+
+
+
+
+
+class 12 - chloropeth demo - https://leenoah1.github.io/class_proiject
