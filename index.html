@@ -33,10 +33,10 @@
 	}).addTo(mymap);
 	
     	// load GeoJSON from an external file
-  $.getJSON("census.geojson",function(data){
+  //$.getJSON("census.geojson",function(data){
     // add GeoJSON layer to the map once the file is loaded
-    L.geoJson(data).addTo(map);
-  });
+   // L.geoJson(data).addTo(map);
+ // });
   
 	L.marker([38.87032, -76.99751]).addTo(mymap)
 		.bindPopup("<b>I am a popup on the Anacostia River.").openPopup();
