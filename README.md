@@ -2,6 +2,7 @@
 GES 778 class project. Anacostia watershed census map.
 
 Documentation
+Use of class 12 - chloropeth demo - https://leenoah1.github.io/class_project
 
 Purpose/Goals: Create interactive webmap of census demographic data in the Anacostia Watershed
 
@@ -36,4 +37,4 @@ Basemap slippy (leaflet) Gist link  - https://gist.github.com/leenoah1/c6cb58257
 
 
 
-class 12 - chloropeth demo - https://leenoah1.github.io/class_project
+
