@@ -33,7 +33,7 @@
 	}).addTo(mymap);
     
   // load GeoJSON from an external file
-  $.getJSON("AnacostiaWatershed_censusData.geojson",function(data){
+  $.getJSON("AnacostiaWatershed_censusData.topojson",function(data){
     // add GeoJSON layer to the map once the file is loaded
     L.geoJson(data).addTo(map);
   });
