@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>MWCOG, Greenhorne and O'Mara, Inc.</origin>
+				<pubdate>1996</pubdate>
+				<title Sync="TRUE">COG_Watershed_2008</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink>\\cognas001\common cog\depgis\polygon\hydrology\anacostia\Anacostia_Watershed.shp</onlink>
+				<ftname Sync="TRUE">COG_Watershed_2008</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This file is an Anacostia Watershed digital file. Initially created in 1996, it depicts continuous watershed boundaries located within three jurisdictions.  Major drainage data source to develop the watershed boundaries include U.S. Geological Survey (USGS) 7.5 minute quadrangle map sheets and the combine sewer overflow drainage area digital file. This digital map captures not only the natural drainage divides but also drainage areas altered by the combine sewer overflow system; particularly the areas located within Washington, District of Columbia. This dataset was updated in 2005 to include Lake Artemesia in the Indian Creek subwatershed.</abstract>
+			<purpose>This file was created to identify and define major subwatersheds in the Anacostia extracted from both the U.S. Geological Survey (USGS) 7.5 minute quadrangle map sheets and the combine sewer overflow drainage area.</purpose>
+			<langdata Sync="TRUE">en</langdata><supplinf>Updates to this spatial data is on-going</supplinf></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1996</caldate>
+					<time>unknown</time>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Continually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-77.079517</westbc>
+				<eastbc Sync="TRUE">-76.810111</eastbc>
+				<northbc Sync="TRUE">39.151022</northbc>
+				<southbc Sync="TRUE">38.844370</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">1289783.124882</leftbc><rightbc Sync="TRUE">1366184.250119</rightbc><bottombc Sync="TRUE">428958.781240</bottombc><topbc Sync="TRUE">540587.812510</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Anacostia</themekey>
+				<themekey>Drainage Area</themekey>
+			</theme>
+			<place>
+				<placekey>Anacostia</placekey>
+				<placekey>Montgomery County</placekey>
+				<placekey>Prince George's County</placekey>
+				<placekey>District of Columbia</placekey>
+			</place>
+		</keywords>
+		<accconst>Contact MWCOG</accconst>
+		<useconst>
+While data have been tested for
+accuracy and function properly, the Metropolitan
+Washington Council of Governments (COG) and its
+Department of Environmental Programs (DEP) disclaim
+any responsibility for the accuracy or correctness
+of the data. THE FOREGOING WARRANTY IS EXCLUSIVE AND
+IN LIEU OF ALL OTHER WARRANTIES OR MERCHANTABILITY,
+FITNESS FOR PARTICULAR PURPOSE AND/OR ANY OTHER TYPE
+WHETHER EXPRESSED OR IMPLIED. In no event shall COG
+or DEP become liable to users of these data, or any
+other party, for any loss or damages, consequential
+or otherwise, including but not limited to time, money,
+or goodwill, arising from the use, operation or
+modification of the data. In using these data,
+users further agree to indemnify, defend, and hold
+harmless COG or DEP for any and all liability of any
+nature arising out of or resulting from the lack of
+accuracy or correctness of the data, or the use of the data.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Phong Trieu</cntper>
+					<cntorg>Metropolitan Washington Council of Governments</cntorg>
+				</cntperp>
+				<cntpos>Senior Envirionmental Planner</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>777 North Capitol Street NE Suite 300</address>
+					<city>Washington</city>
+					<state>District of Columbia</state>
+					<postal>20002-4239</postal>
+					<country>usa</country>
+				</cntaddr>
+			</cntinfo>
+		</ptcontac>
+		<datacred>In 1996, Greenhorne and O'Mara, Inc. was contracted by MWCOG DEP to develop a digital file of the Anacostia Watershed and its major subwatersheds.  USGS 7.5 minute quadrangle map sheets were used as the base layer to develop drainage areas.  This was further adjusted using the combine sewer overflow drainage area coverage, a digital file created by Limno-Tech, Inc. (1995) for DC.</datacred>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data believed to be complete and accurate, subject to change.</attraccr>
+		</attracc>
+		<complete>Data believed to be complete and accurate, subject to change.</complete>
+		<lineage>
+			<procstep>
+				<procdesc>A hardcopy map of the Anacostia and its subwatersheds was completed by COG DEP in the early 1990's using U.S. Geological Survey (USGS) 7.5 minute quadrangle map sheets as a base layer. Then the combine sewer drainage area map was used to adjust the subwatershed drainage boundaries where neccessary.</procdesc>
+				<procdate>1990</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Creation of the Anacostia watershed digital file was completed in 1996. Greenhorne and O'Mara, Inc. was contracted by MWCOG DEP to develop a digital file of the Anacostia watershed and its major subwatersheds. Using the hard copy map and the USGS 7.5 minute quadrangle map sheets as the base layer, the drainage boundariy areas were digitized into ARC/INFO.  The drainage areas were adjusted using the combine sewer overflow drainage area coverage, a digital file created by Limno-Tech, Inc. (1995) for DC.</procdesc>
+				<procdate>1996</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The Delineation of Brier Ditch and Still Creek was comtpleted in 2000. Using scanned USGS Quad sheets, these two subwatersheds were delineated from the Northeast Branch subwatersheds.</procdesc>
+				<procdate>2000</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Fort Dupont Tributary, Pope Branch and Fort Chaplin Tributary were delineated using USGS quad sheets and Orthophotos. Drainage boundary divides in these highly urbanized watersheds were field verified.</procdesc>
+				<procdate>2002</procdate>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\ptrieu\LOCALS~1\Temp\xml32.tmp</srcused><date Sync="TRUE">20051104</date><time Sync="TRUE">16420000</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">H:\DEPGIS\POLYGON\Hydrology\Anacostia\ana_wtrshd_bndry_2003.shp.xml</srcused><date Sync="TRUE">20060103</date><time Sync="TRUE">10492300</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\GIS_DATA\Polygon\Hydrology\Anacostia\ana_wtrshd_bndry_2005</srcused><date Sync="TRUE">20070709</date><time Sync="TRUE">15043000</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">H:\DEPGIS\POLYGON\Hydrology\Anacostia\ana_wtrshd_bndry_2005.shp.xml</srcused><date Sync="TRUE">20091006</date><time Sync="TRUE">09033500</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="COG_Watershed_2008"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">34</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900_Feet</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="COG_Watershed_2008">
+			<enttyp>
+				<enttypl Sync="TRUE">COG_Watershed_2008</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">34</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>AREA</attrlabl>
+				<attrdef>The area of the polygon is in square feet</attrdef>
+				<attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attalias Sync="TRUE">WTRSHD_ID</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>PERIMETER</attrlabl>
+				<attrdef>The perimeter is in feet.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><attalias Sync="TRUE">NAME</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">WTRSHD_ID</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>Subwatershed names currently used by the local jurisdictions.</attrdef>
+				<attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attalias Sync="TRUE">Shape_Area</attalias><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ACREAGE</attrlabl>
+				<attrdef>The area of the polygon in acres.</attrdef>
+				<attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attalias Sync="TRUE">Acreage</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Perimeter</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Acreage</attrlabl><attalias Sync="TRUE">Acres</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Perimeter</attrlabl><attalias Sync="TRUE">WATERSHED</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Area</attrlabl><attalias Sync="TRUE">DRAINAGE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Acres</attrlabl><attalias Sync="TRUE">FMPS_ID</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WATERSHED</attrlabl><attalias Sync="TRUE">WATERSHED</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr><attr>
+				<attrlabl>DRAINAGE</attrlabl>
+				<attrdef>Northwest and Northeast  branches combine to form the tidal river. Drainage indicates where the Anacostia subwatersheds empty into.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">FMPS_ID</attrlabl><attalias Sync="TRUE">FMPS_ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.323</transize>
+					<dssize Sync="TRUE">0.323</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20120716</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>MWCOG</cntorg>
+					<cntper>Phong Trieu</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>777 North Capitol Street, NE, Suite 300</address>
+					<city>Washington</city>
+					<state>District of Columbia</state>
+					<postal>20002-4239</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>202-962-3200</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><CreaDate>20170518</CreaDate><CreaTime>11103900</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20170517</SyncDate><SyncTime>16573600</SyncTime><ModDate>20170517</ModDate><ModTime>16573600</ModTime><DataProperties><itemProps><itemName Sync="TRUE">COG_Watershed_2008</itemName><imsContentType Sync="TRUE">002</imsContentType><nativeExtBox><westBL Sync="TRUE">1289783.124882</westBL><eastBL Sync="TRUE">1366184.250119</eastBL><southBL Sync="TRUE">428958.781240</southBL><northBL Sync="TRUE">540587.812510</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">0.323</itemSize><itemLocation><linkage Sync="TRUE">file://\\mwcog.org\dfs\Common Cog\DEPGIS\POLYGON\Hydrology\Anacostia\COG_Watershed_2008.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Maryland_FIPS_1900_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,1312333.333333333],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-77.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,38.3],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,39.45],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,37.66666666666666],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2248]]&lt;/WKT&gt;&lt;XOrigin&gt;-120561100&lt;/XOrigin&gt;&lt;YOrigin&gt;-95444400&lt;/YOrigin&gt;&lt;XYScale&gt;36953082.294548117&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333331&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102685&lt;/WKID&gt;&lt;LatestWKID&gt;2248&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20170518" Time="110654">Project COG_watershed_2008 H:\Desktop_storage\shapefileCensus\NAD83_COG_watershed_2008.shp PROJCS['NAD_1983_Contiguous_USA_Albers',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-96.0],PARAMETER['Standard_Parallel_1',29.5],PARAMETER['Standard_Parallel_2',45.5],PARAMETER['Latitude_Of_Origin',23.0],UNIT['Meter',1.0]] WGS_1984_(ITRF00)_To_NAD_1983 PROJCS['WGS_1984_World_Mercator',GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Mercator'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',0.0],PARAMETER['Standard_Parallel_1',0.0],UNIT['Meter',1.0]] NO_PRESERVE_SHAPE # NO_VERTICAL</Process></lineage></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri><dataIdInfo><envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.1.3497</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">COG_Watershed_2008</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">1289783.124882</westBL><eastBL Sync="TRUE">1366184.250119</eastBL><northBL Sync="TRUE">540587.81251</northBL><southBL Sync="TRUE">428958.78124</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-77.079517</westBL><eastBL Sync="TRUE">-76.810111</eastBL><northBL Sync="TRUE">39.151022</northBL><southBL Sync="TRUE">38.84437</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt><geoEle><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-77.079517</westBL><eastBL Sync="TRUE">-76.810111</eastBL><northBL Sync="TRUE">39.151022</northBL><southBL Sync="TRUE">38.844370</southBL></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\cogfs002\common cog\DEPGIS\POLYGON\Hydrology\Anacostia\COG_Watershed_2008.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.323</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.323</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="2248">NAD_1983_StatePlane_Maryland_FIPS_1900_Feet</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.2.6</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="COG_Watershed_2008"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">34</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20170517</mdDateSt></metadata>
