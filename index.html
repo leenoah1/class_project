@@ -38,7 +38,7 @@ d3.json("https://raw.githubusercontent.com/leenoah1/class_project/master/geop-wt
   .on('mouseover', function(d, i) {
         console.log('mouseover:', i, d);
         d3.select(this).attr('fill', 'yellow');
-        d3.select(".info").html("<br>White" + d.properties.White_NewP	 
+        d3.select(".info").html("<br>White: " + d.properties.White_NewP	 
                               + "<br>Latino: " + d.properties.Latino_New
                               + "<br>Black: " + d.properties.Black_NewP
                               + "<br>Asian: " + d.properties.Asian_NewP
@@ -47,10 +47,7 @@ d3.json("https://raw.githubusercontent.com/leenoah1/class_project/master/geop-wt
                               
                              
       })
-      .on('mouseout', function(d) {
-        d3.select(this).attr('fill', '#ff1462');
-        d3.select(".info").html("")
-      });
+    
 });
       
           
