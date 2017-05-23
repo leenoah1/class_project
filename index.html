@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Anacostia Watershed Census</title>
-<body>
+<style>
+body {
+  position: absolute;
+  margin: 0px;
+  font: 15px sans-serif;
+}
+
+svg {
+  background-color: #ddedf2;
+}
+
+.info {
+  color: blue;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+</style>
+
 <div class="info"></div> 
   
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script src="//d3js.org/topojson.v2.min.js"></script>
+<body>
 <script>
+  
 var width = 960, height = 500;
+  
 var svg = d3.select('body').append('svg')
     .attr('width', width)
     .attr('height', height);
+  
 // For d3 representation of various stateplanes, see: d3-stateplane
 // We'll set the scale and translate later, based on the data
 var projection = d3.geoConicConformal()
@@ -25,30 +47,41 @@ d3.json("https://raw.githubusercontent.com/leenoah1/class_project/master/geop-wt
   // Set the projection's scale and translate based on the geojson
   projection.fitSize([960, 500], geojson);
   
+  
+    
   // Plot the individual counties
   svg.selectAll('path.tract')
       .data( geojson.features )
     .enter().append('path')
-  .attr('d', path)
+  		.attr('d', path)
       .attr('class', 'tract')
-      .style('fill', 'none')
-      .style('stroke', '#000')
-      .style('stroke-opacity', '1')
+      .style('fill', '')
+      .style('stroke', 'blue')
+      .style('stroke-opacity', '5')
   
   .on('mouseover', function(d, i) {
         console.log('mouseover:', i, d);
         d3.select(this).attr('fill', 'yellow');
-        d3.select(".info").html("<br>White: " + d.properties.White_NewP	 
-                              + "<br>Latino: " + d.properties.Latino_New
-                              + "<br>Black: " + d.properties.Black_NewP
-                              + "<br>Asian: " + d.properties.Asian_NewP
-                              + "<br>Other Race: " + d.properties.OtherRace_
-                              + "<br>MoreThanOneRace: " + d.properties.More1Race_)
-                              
-                             
+        d3.select(".info").html("<br><b><u>WATERSHED:</u></b> " + d.properties.Watershed 
+                         + "<br><br><b><u>White:</u></b> " + d.properties.White_NewP	   
+                         + "<br><b><u>Latino:</u></b> " + d.properties.Latino_New
+                         + "<br><b><u>Black:</u></b> " + d.properties.Black_NewP
+                         + "<br><b><u>Asian:</u></b> " + d.properties.Asian_NewP
+                         + "<br><b><u>OtherRace:</u></b> " + d.properties.OtherRace_
+                         + "<br><b><u>MoreThanOneRace:</u></b> " + d.properties.More1Race_)
+        								 	
+        
+                            + d3.format(",d" + d.properties.White_NewP)
+        										//+ d3.format(",d")(d.properties.Latino_New
+                            //+ d3.format(",d")(d.properties.Black_NewP  
+                            //+ d3.format(",d")(d.properties.Asian_NewP   
+        										//+ d3.format(",d")(d.properties.OtherRace_
+       										  //+ d3.format(",d")(d.properties.More1Race_))
+        
+   
       })
-    
-});
       
+});
+  
           
 </script>
