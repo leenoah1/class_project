@@ -83,9 +83,9 @@ d3.json("https://raw.githubusercontent.com/leenoah1/class_project/master/geop-wt
        										  //+ d3.format(",d")(d.properties.More1Race_))
         
    
+       })
+      .on('mouseout', function(d) {
+        d3.select(this).attr('fill', '#000000');
+        d3.select(".info").html("")
       });
-      
-});
-  
-          
-</script>
+})
